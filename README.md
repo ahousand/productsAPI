@@ -19,3 +19,8 @@ If the above does not work try following the steps below:
   -run `npm install mongodb --save`
 6) Run `npm run start`
 7) Open a web broswer and navigate to http://localhost:8000
+
+#### Using the API
+1) http://localhost:8000/productsSearch will return all the products
+2) http://localhost:8000/productsSearch/yyyy-mm-dd will return the products available on the date (date can also be entered in mm-dd-yyyy format)
+3) http://localhost:8000/productsSearch/yyyy-mm-dd/productName will return that particular product if it is available on the date entered 
